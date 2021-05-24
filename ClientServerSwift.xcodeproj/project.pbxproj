@@ -15,6 +15,7 @@
 		115E6946265BAF4500D29826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115E6944265BAF4500D29826 /* LaunchScreen.storyboard */; };
 		115E6951265BAF4500D29826 /* ClientServerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115E6950265BAF4500D29826 /* ClientServerSwiftTests.swift */; };
 		115E695C265BAF4500D29826 /* ClientServerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115E695B265BAF4500D29826 /* ClientServerSwiftUITests.swift */; };
+		115E696F265C021800D29826 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115E696E265C021800D29826 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		115E6957265BAF4500D29826 /* ClientServerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientServerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115E695B265BAF4500D29826 /* ClientServerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientServerSwiftUITests.swift; sourceTree = "<group>"; };
 		115E695D265BAF4500D29826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115E696E265C021800D29826 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +149,18 @@
 		115E696B265BB00900D29826 /* Lesson1 */ = {
 			isa = PBXGroup;
 			children = (
+				115E696D265C020100D29826 /* Service */,
 				115E693D265BAF4300D29826 /* ViewController.swift */,
 			);
 			path = Lesson1;
+			sourceTree = "<group>";
+		};
+		115E696D265C020100D29826 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				115E696E265C021800D29826 /* Session.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115E696F265C021800D29826 /* Session.swift in Sources */,
 				115E693E265BAF4300D29826 /* ViewController.swift in Sources */,
 				115E693A265BAF4300D29826 /* AppDelegate.swift in Sources */,
 				115E693C265BAF4300D29826 /* SceneDelegate.swift in Sources */,
